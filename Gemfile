@@ -25,7 +25,7 @@ gem 'figaro'
 gem 'activeadmin', github: 'gregbell/active_admin'
 
 #Add devise for login support
-gem 'devise'
+gem 'devise' , github: 'plataformatec/devise', branch: 'master'
 
 # Add letter opener for handling emails in development
 
