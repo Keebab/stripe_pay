@@ -21,6 +21,12 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Using Figaro for secure management of keys 
 gem 'figaro'
 
+# Add Active admin for managing payment databases
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+#Add devise for login support
+gem 'devise'
+
 # Add letter opener for handling emails in development
 
 gem 'letter_opener', :group => :development
